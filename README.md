@@ -4,7 +4,7 @@ This is a backend service built with Java and Spring Boot that satisfies the "Mi
 
 The service uses a Redis Sorted Set to implement a true sliding time window algorithm, limiting requests by IP address. The rate-limiting logic is modular, using a Spring HandlerInterceptor to keep it separate from the main business logic.
 
-Live URL: [https://your-service-name.onrender.com/api/hello (Replace this with your actual Render URL)](https://redisratelimiter.onrender.com/api/hello)
+Live URL: [https://your-service-name.onrender.com/api/hello](https://redisratelimiter.onrender.com/api/hello)
 
 Features
 
